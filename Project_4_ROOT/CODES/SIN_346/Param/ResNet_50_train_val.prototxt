@@ -8,11 +8,21 @@ layer {
 	include {
 	  phase: TRAIN
 	}
+#	transform_param {
+#	  mirror: true
+#	  crop_size: 224
+#	  mean_file: "/home/hzhang57/NEW_WORLD/Project_4_ROOT/CODES/SIN_346/Param/ResNet_mean.binaryproto"
+#	}
+
+# mean pixel /channel-wise mean instead of mean image 
 	transform_param {
 	  mirror: true
 	  crop_size: 224
-	  mean_file: "/home/hzhang57/NEW_WORLD/Project_4_ROOT/CODES/SIN_346/Param/mean.binaryproto"
+	  mean_value: 103 
+	  mean_value: 116
+	  mean_value: 123 
 	}
+
 	data_param {
 	  source: "/home/hzhang57/NEW_WORLD/Project_4_ROOT/CODES/SIN_346/Param/SIN-train.leveldb"
 	  batch_size: 20
@@ -29,10 +39,20 @@ layer {
 	include {
 	  phase: TEST
 	}
+
+#	transform_param {
+#	  mirror: false
+#	  crop_size: 224
+#	  mean_file: "/home/hzhang57/NEW_WORLD/Project_4_ROOT/CODES/SIN_346/Param/ResNet_mean.binaryproto"
+#	}
+
+# mean pixel /channel-wise mean instead of mean image 
 	transform_param {
 	  mirror: false
 	  crop_size: 224
-	  mean_file: "/home/hzhang57/NEW_WORLD/Project_4_ROOT/CODES/SIN_346/Param/mean.binaryproto"
+	  mean_value: 103 
+	  mean_value: 116
+	  mean_value: 123 
 	}
 	data_param {
 	  source: "/home/hzhang57/NEW_WORLD/Project_4_ROOT/CODES/SIN_346/Param/SIN-test.leveldb"
