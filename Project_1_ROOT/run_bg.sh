@@ -1,0 +1,21 @@
+#!/bin/bash
+nohup python -u ./DRN50_MED14_BG.py 1 250    > ./log/BG_1 &
+nohup python -u ./DRN50_MED14_BG.py 250 500 > ./log/BG_2 &
+nohup python -u ./DRN50_MED14_BG.py 500 750 > ./log/BG_3 &
+nohup python -u ./DRN50_MED14_BG.py 750 1000 > ./log/BG_4 &
+nohup python -u ./DRN50_MED14_BG.py 1000 1250 > ./log/BG_5 &
+nohup python -u ./DRN50_MED14_BG.py 1250 1500    > ./log/BG_6 &
+nohup python -u ./DRN50_MED14_BG.py 1500 1750 > ./log/BG_7 &
+nohup python -u ./DRN50_MED14_BG.py 1750 2000 > ./log/BG_8 &
+nohup python -u ./DRN50_MED14_BG.py 2000 2250 > ./log/BG_9 &
+nohup python -u ./DRN50_MED14_BG.py 2250 2500 > ./log/BG_10 &
+nohup python -u ./DRN50_MED14_BG.py 2500 2750 > ./log/BG_11 &
+nohup python -u ./DRN50_MED14_BG.py 2750 3000 > ./log/BG_12 &
+nohup python -u ./DRN50_MED14_BG.py 3000 3250 > ./log/BG_13 &
+nohup python -u ./DRN50_MED14_BG.py 3250 3500    > ./log/BG_14 &
+nohup python -u ./DRN50_MED14_BG.py 3500 3750 > ./log/BG_15 &
+nohup python -u ./DRN50_MED14_BG.py 3750 4000 > ./log/BG_16 &
+nohup python -u ./DRN50_MED14_BG.py 4000 4250 > ./log/BG_17 &
+nohup python -u ./DRN50_MED14_BG.py 4250 4500 > ./log/BG_18 &
+nohup python -u ./DRN50_MED14_BG.py 4500 4750 > ./log/BG_19 &
+nohup python -u ./DRN50_MED14_BG.py 4750 5000 > ./log/BG_20 &
