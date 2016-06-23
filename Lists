@@ -1,0 +1,24 @@
+Project_1_ROOT:
+	Feature: Deep Residual Network for MED
+	SPP-VLAD
+Project_2_ROOT:
+	DRN50_fc_vlad
+	DRN50_pool5_vlad
+	DRN50_prob_vlad
+	
+	DRN50_L5C
+	DRN50_L5B
+	DRN50_L5A
+	DRN50_L4F
+Project_2_ROOT_DRN:
+	DRN50_L5A_V5
+Project_3_ROOT:
+	Fast-Object_VLAD: Explore
+Project_4_ROOT:
+	Fine Tune DRN Net	
+Project_5_ROOT:
+	Object_Region extraction with Selective Search
+Project_6_ROOT:
+	Feature extarction for Object-VLAD
+Project_7_ROOT:
+	SIN, RC, Places, ImageNet, Feature  Extraction for AVS
