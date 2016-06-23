@@ -9,4 +9,4 @@ hzToolkit   = [ toolkit, 'hzToolkit/' ];
 addpath(svmToolkit);
 addpath(hzToolkit);
 
-tvMed       = [ homeFolder, 'Data/MED/' ];
+tvMed       = ['/home/data/MED/' ];
