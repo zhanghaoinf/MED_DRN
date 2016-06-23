@@ -1,0 +1,43 @@
+Readme.txt
+Step_0:
+	st_0_spMax_100Ex.py
+	st_0_spMax_BG.py
+	st_0_spMax_Test.py
+Step_1:
+	st_1A_GenFeatList.m
+	st_1B_RandPick.m
+	st_1C_SplitGatherFeat.py
+	st_1C_Combine.m
+Step_2:
+	st_2_learnDict_V2.m
+Step_3:
+	st_3_bg_vlad_ssr.m
+	st_3_ek100_vlad_ssr.m
+	st_3_test_vlad_ssr.m
+Step_4:
+	st_4_collectBG.m
+	st_4_collectMed14_100Ex.m
+Step_5:
+	st_5_calculateKernelM.m
+	st_5_cvonly.m
+Step_6:
+	st_6_trainSVM_EK100.m
+Step_7:
+	st_7A_fastModel_EK100.m
+	st_7B_fastPred_EK100.m
+Step8&9:
+	st_8_asse_EK100.m
+	st_9_evaluate.m
+Backup Data:
+	st_Tar_3.py
+	st_Tar_3_EK100.py
+Function:
+	subroutine.py
+	subroutine.pyc
+Folder:
+	temp
+	cvRaw
+	cvSta
+	Kernels
+	log
+	Params
